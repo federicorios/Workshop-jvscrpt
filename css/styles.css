@@ -1,0 +1,75 @@
+/* CSS Document  */
+/* Project name: TP Bootstrap */
+/* File name: styles.css */
+/* Description: Hoja de estilos global */
+/* Creation date: Mayo de 2016 */
+/* Author: Name Lastname */
+/* Author's eMail: username@server.com */
+/********** FONTS (Google-fonts) **********/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
+body {
+  font-family: "Kaushan Script";
+  margin: 0; }
+
+figure {
+  margin: 0;
+  line-height: 0; }
+
+a {
+  outline: none !important; }
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/***********************************/
+/*=========     GLOBAL     =========*/
+/***********************************/
+.lista {
+  background: #00695C;
+  list-style: none;
+  font-size: 18px;
+  margin-top: -22px; }
+
+li {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  background: #00897B; }
+
+.form {
+  text-align: center;
+  background: #1DE9B6;
+  padding-top: 16px;
+  padding-bottom: 21px; }
+
+/*************************************/
+/*=========     HEADER     =========*/
+/***********************************/
+/*************************************/
+/*=========     BANNER     =========*/
+/***********************************/
+/**************************************/
+/*=========     PORTFOLIO     =========*/
+/**************************************/
+/***************************************/
+/*=========    about    =========*/
+/*************************************/
+/************************************/
+/*=========     Contact    =========*/
+/**********************************/
+/***********************************/
+/*=========     Footer    =========*/
+/*********************************/
+/***********************************/
+/*=========     carta    =========*/
+/*********************************/
+/******************************************/
+/*=========     MEDIA-QUERIES    =========*/
+/******************************************/
+
+/*# sourceMappingURL=styles.css.map */

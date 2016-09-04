@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+
+<html lang="es">
+	<head>
+		 <link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+
+
+<body>
+		<div class= "form">
+			<h1 onmouseclick="">Ingrese la tarea.</h1>
+			<br>
+			<input id="titulo" placeholder="Titulo de la tarea" ></input>
+			<br>
+			<textarea  id="descripcion" placeholder="Ingrese la descripcion"></textarea>
+			<br>
+			<button id="agregar">Agregar Tarea</button>
+			<button onclick="list.editTask()">Editar</button>
+			<button onclick="list.showTask()">Mostrar Todos</button>
+			<button onclick="list.deleteTask()">Eliminar Todos</button>
+			<button onclick="list.findTask()">Buscar</button>
+		</div>
+		<div id="listadetareas"></div>
+		<script type="text/javascript" src="EjercicioArrays.js">
+
+	</script>
+</body>
+</html>
+
